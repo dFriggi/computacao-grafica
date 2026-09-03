@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Retas e triângulos com Bresenham (WebGL2)</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 24px;
+        background: #f5f5f5;
+        font-family: system-ui, sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+
+      canvas {
+        display: block;
+        width: 800px;
+        height: 600px;
+        border: 1px solid #999;
+        cursor: crosshair;
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <p>
+      Tecla R: modo reta (dois cliques). Tecla T: modo triângulo (três
+      cliques).<br />
+      Teclas 0 a 9: azul, vermelho, verde, amarelo, laranja, roxo, ciano,
+      magenta, branco, cinza.
+    </p>
+
+    <script src="main.js"></script>
+  </body>
+</html>
